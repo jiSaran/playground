@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Play</string>
+    <string name="welcome_msg">Welcome to Bsociable. \nTake a quick tour to see \nwhat you can do with \nBsociable.</string>
+    <string name="skip">No thanks</string>
+    <string name="start_tour">Let\'s Go</string>
+    <string name="user">Hi First Name,</string>
+    <string name="invite_msg">Invite your friends to \nBsociable and start \ncreating events</string>
+    <string name="tv_skip">Skip</string>
+    <string name="tv_create_event">Create New Events</string>
+    <string name="msg_create_event">Create unlimited events with groups \nand friends and send the relevant \ninformation, every time.</string>
+    <string name="tv_view_event">View the group or friends availability</string>
+    <string name="msg_view_event">A dot under the date indicates that \nsome in the group has \nanother commitment.</string>
+    <string name="tv_sync_cal">Set your profile and preferences</string>
+    <string name="msg_sync_cal">Add a profile photo, set your dietary \npreferences and sync your default \ncalendar to keep your friends \nup to date on your \navailability.</string>
+    <string name="next">NEXT</string>
+    <string name="done">DONE</string>
+</resources>

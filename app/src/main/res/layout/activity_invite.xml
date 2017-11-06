@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tv_invite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:textSize="20sp"
+        android:textColor="#0088d6"
+        android:text="@string/invite_msg"/>
+
+    <ImageView
+        android:id="@+id/iv_messenger"
+        android:src="@drawable/ic_messenger"
+        android:background="@drawable/background_selector_messenger"
+        android:padding="25dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/tv_invite"
+        android:layout_marginTop="30dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp" />
+
+    <ImageView
+        android:id="@+id/iv_email"
+        android:src="@drawable/ic_sms"
+        android:padding="25dp"
+        android:background="@drawable/background_selector_email"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/iv_messenger"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="80dp"/>
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/iv_messenger"
+        android:layout_marginStart="80dp"
+        android:src="@drawable/ic_email"
+        android:padding="25dp"
+        android:background="@drawable/background_selector_email"/>
+
+    <ImageView
+        android:id="@+id/iv_whatsapp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/ic_whatsapp"
+        android:padding="25dp"
+        android:background="@drawable/background_selector_whatsapp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/iv_email"/>
+
+    <TextView
+        android:id="@+id/tv_skip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tv_skip"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:paddingEnd="20dp"
+        android:paddingStart="20dp"
+        android:paddingBottom="20dp"/>
+
+</RelativeLayout>

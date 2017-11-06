@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tv_invite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:text="@string/invite_msg"
+        android:textColor="#0088d6"
+        android:textSize="20sp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+
+        <ImageView
+            android:id="@+id/iv_messenger"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/background_selector_messenger"
+            android:padding="25dp"
+            android:src="@drawable/ic_messenger" />
+
+        <ImageView
+            android:id="@+id/iv_sms"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="115dp"
+            android:layout_marginEnd="98dp"
+            android:background="@drawable/background_selector_email"
+            android:padding="25dp"
+            android:src="@drawable/ic_sms" />
+
+        <ImageView
+            android:id="@+id/iv_email"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="115dp"
+            android:layout_marginStart="98dp"
+            android:layout_alignParentStart="true"
+            android:background="@drawable/background_selector_email"
+            android:padding="25dp"
+            android:src="@drawable/ic_email" />
+
+        <ImageView
+            android:id="@+id/iv_whatsapp"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_below="@id/iv_messenger"
+            android:layout_marginTop="70dp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/background_selector_whatsapp"
+            android:padding="25dp"
+            android:src="@drawable/ic_whatsapp" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tv_skip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:paddingBottom="20dp"
+        android:paddingEnd="20dp"
+        android:paddingStart="20dp"
+        android:text="@string/tv_skip" />
+
+</RelativeLayout>
